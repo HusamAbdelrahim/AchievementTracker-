@@ -1,0 +1,61 @@
+body { background-color: lightblue; }
+
+h1 {
+    display: flex;
+    color:red;
+    align-items:flex-start;
+}
+
+h2 {
+    text-align:left;
+    font: 100;
+}
+
+p {
+    text-align: left;
+    color:red;
+}
+
+
+.parent {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.achievement {
+    display: flex;
+    color: white;
+    background-color: #2a2f38;
+    padding: 3px;
+    gap: 10px;
+    margin: 0;
+}
+
+.achievenment2 {
+    display: flex;
+    color: white;
+    background-color: #2a2f38;
+    padding: 3px;
+    gap: 10px;
+    margin: 0;
+}
+
+.details h2,
+.details p{
+    margin: 0;
+}
+
+.details2 h2,
+.details2 p {
+    margin: 0;
+}
+
+.search-bar {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
